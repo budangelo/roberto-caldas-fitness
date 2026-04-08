@@ -1,0 +1,10 @@
+.custom-navbar-wrapper {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.custom-navbar-wrapper > * {
+  pointer-events: auto;
+}

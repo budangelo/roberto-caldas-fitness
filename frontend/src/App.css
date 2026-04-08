@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    linear-gradient(180deg, #131312 0%, #1b1b1a 100%);
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: url("/noise-tile-256.png");
+  background-repeat: repeat;
+  opacity: 0.99;
+  mix-blend-mode: soft-light;
+}

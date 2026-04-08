@@ -1,0 +1,245 @@
+.custom-footer {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  padding: 90px 0 0;
+  background: linear-gradient(180deg, #120607 0%, #090909 100%);
+}
+
+.footer-dotgrid-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+.footer-dotgrid-bg > * {
+  width: 100%;
+  height: 100%;
+}
+
+.footer-content {
+  position: relative;
+  z-index: 2;
+  padding-left: clamp(24px, 4vw, 64px);
+  padding-right: clamp(24px, 4vw, 64px);
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: 1fr minmax(120px, 220px) auto;
+  gap: 48px;
+  align-items: start;
+}
+
+.footer-center-spacer {
+  min-height: 1px;
+}
+
+.footer-brand-column {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-widget-column {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.footer-brand {
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 800;
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+}
+
+.footer-link-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer-link-list a {
+  color: rgba(255, 255, 255, 0.78);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.footer-link-list a:hover {
+  color: #ffffff;
+  transform: translateX(4px);
+}
+
+.footer-middle {
+  margin-top: 42px;
+}
+
+.footer-legal-list {
+  max-width: max-content;
+}
+
+
+.footer-bottom {
+  width: 100%;
+  margin-top: 48px;
+  padding: 22px 20px;
+  background-color: #550c0d;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-copyright {
+  margin: 0;
+  color: #000;
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+
+@media (max-width: 991.98px) {
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+  }
+
+  .footer-center-spacer {
+    display: none;
+  }
+
+  .footer-widget-column {
+    justify-content: flex-end;
+  }
+
+  .footer-middle {
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .custom-footer {
+    padding: 64px 0 22px;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .footer-widget-column {
+    justify-content: flex-start;
+  }
+
+  .footer-middle {
+    margin-top: 24px;
+  }
+
+  .footer-bottom {
+    margin-top: 32px;
+    padding-top: 18px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .footer-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+
+
+.footer-widget-column {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.footer-contact-card {
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+  padding: 10px 0;
+}
+
+.footer-contact-mark {
+  color: #ffffff;
+  font-size: 2.6rem;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.footer-contact-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: clamp(2rem, 3vw, 3.2rem);
+  font-weight: 300;
+  line-height: 0.95;
+  letter-spacing: 0.04em;
+  transition: opacity 0.25s ease, transform 0.25s ease, color 0.25s ease;
+}
+
+.footer-contact-link:hover {
+  color: #d7d7d7;
+  transform: translateX(6px);
+}
+
+.footer-contact-button {
+  margin-top: 12px;
+  min-width: 220px;
+  padding: 16px 26px;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease;
+}
+
+.footer-contact-button:hover {
+  background-color: #ffffff;
+  color: #0a0a0a;
+  transform: translateY(-2px);
+}
+
+.footer-contact-arrow {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+@media (max-width: 767.98px) {
+  .footer-widget-column {
+    justify-content: flex-start;
+  }
+
+  .footer-contact-card {
+    max-width: 100%;
+  }
+
+  .footer-contact-link {
+    font-size: clamp(1.8rem, 9vw, 2.8rem);
+  }
+
+  .footer-contact-button {
+    min-width: 200px;
+    width: auto;
+  }
+}
