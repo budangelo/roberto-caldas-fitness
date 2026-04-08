@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-//import desktopVideo from "../assets/prueba.mp4";
-//import mobileVideo from "../assets/prueba-mobile.mp4";
+import desktopVideo from "../assets/prueba.mp4";
+import mobileVideo from "../assets/prueba-mobile.mp4";
 import serviceImageOne from "../assets/pexels-marius-aholou-193600353-11432959.jpg";
 import serviceImageTwo from "../assets/pexels-ardit-mbrati-216809103-18187614.jpg";
 import runningVideo from "../assets/7876919-uhd_2160_4096_25fps.mp4";
@@ -90,7 +90,7 @@ useEffect(() => {
 
 return (
   <main className="home-page">
-    {/* ----------------------- Hero ---------------
+    {/* ----------------------- Hero ----------------- */}
     <section id="home" className="hero-section">
       <video
         className="hero-video"
