@@ -26,22 +26,17 @@ function CustomFooter() {
 
             <ul className="footer-link-list">
               <li>
-                <a href="https://linkedin.com" target="_blank" rel="noreferrer">
-                  LinkedIn
-                </a>
-              </li>
-              <li>
-                <a href="https://instagram.com" target="_blank" rel="noreferrer">
+                <a href="https://www.instagram.com/robertocaldas_music/" target="_blank" rel="noopener noreferrer">
                   Instagram
                 </a>
               </li>
               <li>
-                <a href="https://tiktok.com" target="_blank" rel="noreferrer">
+                <a href="https://www.tiktok.com/@robertocaldas_music" target="_blank" rel="noopener noreferrer">
                   TikTok
                 </a>
               </li>
               <li>
-                <a href="https://youtube.com" target="_blank" rel="noreferrer">
+                <a href="https://www.youtube.com/@robertocaldaslanza" target="_blank" rel="noopener noreferrer">
                   YouTube
                 </a>
               </li>
@@ -53,7 +48,7 @@ function CustomFooter() {
           <div className="footer-column footer-widget-column">
             <div className="footer-right-stack">
               <CircularText
-                text="ANGELO*BUDA*DEVELOPER*"
+                text="ANGELO * BUDA * DEVELOPED * "
                 onHover="speedUp"
                 spinDuration={20}
                 className="custom-class"
@@ -61,16 +56,16 @@ function CustomFooter() {
 
               <div className="footer-contact-card">
                 <a
-                  href="https://www.linkedin.com/in/TU-USUARIO"
+                  href="https://www.linkedin.com/in/angelo-buda"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="footer-contact-link"
                 >
                   LINKEDIN
                 </a>
 
                 <a
-                  href="mailto:tuemail@gmail.com"
+                  href="mailto:budaangelo@gmail.com"
                   className="footer-contact-link"
                 >
                   GMAIL
@@ -87,9 +82,6 @@ function CustomFooter() {
             </li>
             <li>
               <a href="#cookies">Cookies</a>
-            </li>
-            <li>
-              <a href="/authors">Authors</a>
             </li>
           </ul>
         </div>

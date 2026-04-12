@@ -156,14 +156,6 @@
   }
 }
 
-
-
-.footer-widget-column {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-}
-
 .footer-contact-card {
   width: 100%;
   max-width: 360px;
@@ -174,12 +166,6 @@
   padding: 10px 0;
 }
 
-.footer-contact-mark {
-  color: #ffffff;
-  font-size: 2.6rem;
-  font-weight: 300;
-  line-height: 1;
-}
 
 .footer-contact-link {
   color: #ffffff;
@@ -196,35 +182,6 @@
   transform: translateX(6px);
 }
 
-.footer-contact-button {
-  margin-top: 12px;
-  min-width: 220px;
-  padding: 16px 26px;
-  border: 1px solid rgba(255, 255, 255, 0.85);
-  color: #ffffff;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease;
-}
-
-.footer-contact-button:hover {
-  background-color: #ffffff;
-  color: #0a0a0a;
-  transform: translateY(-2px);
-}
-
-.footer-contact-arrow {
-  font-size: 1.25rem;
-  line-height: 1;
-}
-
 @media (max-width: 767.98px) {
   .footer-widget-column {
     justify-content: flex-start;
@@ -236,10 +193,5 @@
 
   .footer-contact-link {
     font-size: clamp(1.8rem, 9vw, 2.8rem);
-  }
-
-  .footer-contact-button {
-    min-width: 200px;
-    width: auto;
   }
 }

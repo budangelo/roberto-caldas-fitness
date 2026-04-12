@@ -52,29 +52,6 @@
   font-family: monospace;
 }
 
-.hero-button {
-  min-width: 180px;
-  min-height: 56px;
-  padding: 0 28px;
-  border: none;
-  border-radius: 999px;
-  background-color: #550c0d;
-  color: #ffffff;
-  font-size: 1rem;
-  font-weight: 700;
-  cursor: pointer;
-  transition:
-    transform 0.3s ease,
-    background-color 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-.hero-button:hover {
-  transform: translateY(-2px);
-  background-color: #bd1c1f;
-  box-shadow: 0 12px 30px rgba(85, 12, 13, 0.35);
-}
-
 @media (max-width: 767.98px) {
   .hero-section {
     padding: 24px 18px;

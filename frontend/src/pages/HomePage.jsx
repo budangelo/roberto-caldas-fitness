@@ -178,7 +178,7 @@ return (
       </div>
     </section>
     {/* ----------------------- cards ------------------ */}
-<section id="training" className="training-section">
+<section id="info" className="training-section">
   <div className="container">
     <div className="training-header reveal-on-scroll reveal-up">
       <TrueFocus
@@ -200,8 +200,7 @@ return (
           } ${index === 2 ? "reveal-delay-2" : ""}`}
           onMouseEnter={() => handleCardEnter(index)}
           onMouseLeave={() => handleCardLeave(index)}
-          onFocus={() => handleCardEnter(index)}
-          onBlur={() => handleCardLeave(index)}
+
         >
           <video
             ref={(element) => {
@@ -229,7 +228,7 @@ return (
     {/* ----------------------- social ------------------ */}
 
     {/* ----------------------- about me ------------------ */}
-<section className="about-final-section">
+<section id="about" className="about-final-section">
   <div className="container">
     <div className="about-final-layout">
       <div className="about-final-image-wrapper reveal-on-scroll reveal-left">
